@@ -1,7 +1,8 @@
 {
   "name": "ninjafood",
   "scripts": {
-    "build-css": "tailwindcss build -i src/styles.css -o public/styles.css --watch"
+    "build-css": "tailwindcss build -i src/styles.css -o public/styles.css",
+    "build-css-live": "tailwindcss build -i src/styles.css -o public/styles.css --watch"
   },
   "dependencies": {
     "tailwindcss": "^3.3.1"
